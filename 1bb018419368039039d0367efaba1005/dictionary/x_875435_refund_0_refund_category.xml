@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="80e758cd9368039039d0367efaba1057" label="Refund Category" max_length="40" name="x_875435_refund_0_refund_category" type="collection">
+        <element label="Group" max_length="32" name="group" reference="sys_user_group" reference_qual="parent=08083c0d936c039039d0367efaba1042^EQ" reference_qual_condition="parent=08083c0d936c039039d0367efaba1042^EQ" type="reference"/>
+        <element display="true" label="Title" max_length="40" name="title" type="string"/>
+        <index name="index">
+            <element name="group"/>
+        </index>
+    </element>
+</database>
