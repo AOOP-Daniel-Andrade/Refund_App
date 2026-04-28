@@ -40,7 +40,7 @@
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>parent=08083c0d936c039039d0367efaba1042^EQ</reference_qual>
-        <reference_qual_condition table="sys_user_group">parent=08083c0d936c039039d0367efaba1042^EQ<item display_table="sys_user_group" display_value="Refund Categories" endquery="false" field="parent" goto="false" newquery="false" operator="=" or="false" value="08083c0d936c039039d0367efaba1042"/>
+        <reference_qual_condition table="sys_user_group">parent=08083c0d936c039039d0367efaba1042^EQ<item display_table="sys_user_group" display_value="Refund HR Resolvers" endquery="false" field="parent" goto="false" newquery="false" operator="=" or="false" value="08083c0d936c039039d0367efaba1042"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Refund" section_id="75f792119328c39039d0367efaba10c5" sys_domain="global" table="x_875435_refund_0_refund" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>5328de119328c39039d0367efaba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">64f5121d93e4c39039d0367efaba10f9</sys_ui_formatter>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>d728de119328c39039d0367efaba1037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>5728de119328c39039d0367efaba1038</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>d328de119328c39039d0367efaba1039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>refund_amount</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>5328de119328c39039d0367efaba103a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>refund_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>df28de119328c39039d0367efaba103a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>5f28de119328c39039d0367efaba103b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>refund_category</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>db28de119328c39039d0367efaba103c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>refund_amount_dollars</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>5b28de119328c39039d0367efaba103d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>d728de119328c39039d0367efaba103e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>5728de119328c39039d0367efaba103f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:57</sys_created_on>
+            <sys_id>d328de119328c39039d0367efaba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">75f792119328c39039d0367efaba10c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Refund</caption>
+            <header>false</header>
+            <name>x_875435_refund_0_refund</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 18:00:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75f792119328c39039d0367efaba10c5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_875435_refund_0_refund</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
+            <sys_update_name>sys_ui_section_75f792119328c39039d0367efaba10c5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
