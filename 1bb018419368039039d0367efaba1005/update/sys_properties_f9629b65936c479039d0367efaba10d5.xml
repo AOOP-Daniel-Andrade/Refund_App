@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>FreecurrencyAPI Integration timeout between retries on failure (in seconds)</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_875435_refund_0.integration_retry_timeout</name>
+        <read_roles/>
+        <suffix>integration_retry_timeout</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 16:54:33</sys_created_on>
+        <sys_id>f9629b65936c479039d0367efaba10d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_875435_refund_0.integration_retry_timeout</sys_name>
+        <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
+        <sys_update_name>sys_properties_f9629b65936c479039d0367efaba10d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 18:56:17</sys_updated_on>
+        <type>integer</type>
+        <value>5</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9629b65936c479039d0367efaba10d5"/>
+</record_update>

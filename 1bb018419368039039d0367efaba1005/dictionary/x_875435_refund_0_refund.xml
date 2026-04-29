@@ -2,10 +2,10 @@
     <element db_object_id="d5871c8d9368039039d0367efaba1045" extends="task" label="Refund" max_length="40" name="x_875435_refund_0_refund" type="collection">
         <element label="Refund Category" max_length="32" name="refund_category" reference="x_875435_refund_0_refund_category" type="reference"/>
         <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
-        <element label="Refund Date" max_length="40" name="refund_date" type="glide_date"/>
+        <element label="Purchase Date" max_length="40" name="refund_date" type="glide_date"/>
         <element label="Receipt" max_length="40" name="receipt" type="file_attachment"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
-        <element label="Refund Amount Dollars" max_length="40" name="refund_amount_dollars" type="float"/>
+        <element label="Refund Amount (in USD)" max_length="40" name="refund_amount_dollars" type="float"/>
         <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
@@ -15,6 +15,6 @@
                 <element inactive_on_update="false" label="Invalid" sequence="2" value="7"/>
             </choice>
         </element>
-        <element label="Refund Amount" max_length="40" name="refund_amount" type="float"/>
+        <element label="Refund Amount (in BRL)" max_length="40" name="refund_amount" type="float"/>
     </element>
 </database>

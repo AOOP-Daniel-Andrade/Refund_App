@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_export_visualization">
+    <par_export_visualization action="INSERT_OR_UPDATE">
+        <file_type>pdf</file_type>
+        <omit_if_empty>true</omit_if_empty>
+        <orientation>portrait</orientation>
+        <page_size>letter</page_size>
+        <smart_size>false</smart_size>
+        <sys_class_name>par_export_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 15:54:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f5b4c7e993e8479039d0367efaba1086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
+        <sys_update_name>par_export_visualization_f5b4c7e993e8479039d0367efaba1086</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 15:54:02</sys_updated_on>
+        <visualizations>7ef4fee99368479039d0367efaba10b0</visualizations>
+    </par_export_visualization>
+</record_update>
