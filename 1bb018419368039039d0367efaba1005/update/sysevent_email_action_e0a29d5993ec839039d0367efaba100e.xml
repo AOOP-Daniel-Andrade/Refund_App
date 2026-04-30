@@ -36,14 +36,38 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${opened_by.name},</p>
+        <message_html><![CDATA[<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.email-container { 	
+	max-width: 600px; 
+	margin: 0 auto; 
+	border: 1px solid #e1e1e1;
+}
+
+.header { 
+	background-color: #f4f4f4; 
+    padding: 20px; 
+    text-align: center; 
+}
+.btn { 
+	background-color: #035dbd; 
+    color: #fff !important; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 3px; 
+}
+</style>
+<p>Dear ${opened_by.name},</p>
 <p>&nbsp;</p>
-<p>We have <strong>approved</strong> your refund request number: <strong>${number}</strong>.</p>
+<p>Your manager, ${opened_by.manager.name}, has <strong>approved</strong> your refund request number: <strong>${number}</strong>.</p>
 <p>It is now being processed on our end and awaiting for payment.</p>
 <p>We apologize for any inconvenience and appreciate your patience.</p>
 <p>&nbsp;</p>
 <p>Best regards,</p>
-<p>${opened_by.manager.name}</p>
+<p>The ${refund_category.group} Team</p>
 <p>&nbsp;</p>
 <p>If you want to request another refund, please click <a href="/sp?id=sc_cat_item&amp;sys_id=d420094d93ac039039d0367efaba104b">here</a>.</p>]]></message_html>
         <message_list/>
@@ -59,7 +83,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${number} - Review Approved</subject>
+        <subject>${number} - Refund Approved</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -67,7 +91,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e0a29d5993ec839039d0367efaba100e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Refund Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
@@ -75,7 +99,7 @@
         <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
         <sys_update_name>sysevent_email_action_e0a29d5993ec839039d0367efaba100e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 13:55:02</sys_updated_on>
+        <sys_updated_on>2026-04-30 20:22:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

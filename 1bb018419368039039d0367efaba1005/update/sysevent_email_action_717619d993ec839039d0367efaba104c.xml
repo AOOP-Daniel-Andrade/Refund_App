@@ -36,16 +36,41 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${opened_by.name},</p>
+        <message_html><![CDATA[<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.email-container { 	
+	max-width: 600px; 
+	margin: 0 auto; 
+	border: 1px solid #e1e1e1;
+}
+
+.header { 
+	background-color: #f4f4f4; 
+    padding: 20px; 
+    text-align: center; 
+}
+.btn { 
+	background-color: #035dbd; 
+    color: #fff !important; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 3px; 
+}
+
+</style>
+<p>Dear ${opened_by.name},</p>
 <p>&nbsp;</p>
 <p>Thank you for your patience while we reviewed your refund request number: <strong>${number}</strong>.</p>
-<p>After careful consideration, we are unable to approve a refund.</p>
-<p>Reproval reason: "${reproval_reason}".</p>
+<p>Please be advised that, following a careful evaluation by ${opened_by.manager.name}, your request for a refund has been declined.</p>
+<p>Reproval reason: ${reproval_reason}</p>
 <p>&nbsp;</p>
 <p>We apologize for any inconvenience and appreciate your patience.</p>
 <p>&nbsp;</p>
 <p>Best regards,</p>
-<p>${opened_by.manager.name}</p>
+<p>The ${refund_category.group} Team</p>
 <p>&nbsp;</p>
 <p>If you want to request another refund, please click <a href="/sp?id=sc_cat_item&amp;sys_id=d420094d93ac039039d0367efaba104b">here</a>.</p>]]></message_html>
         <message_list/>
@@ -69,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>717619d993ec839039d0367efaba104c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Refund Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
@@ -77,7 +102,7 @@
         <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
         <sys_update_name>sysevent_email_action_717619d993ec839039d0367efaba104c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 14:57:42</sys_updated_on>
+        <sys_updated_on>2026-04-30 20:37:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

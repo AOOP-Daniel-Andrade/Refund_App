@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Refund" name="Refund">1f135d9993ec839039d0367efaba10b3</category>
         <collection>x_875435_refund_0_refund</collection>
-        <condition/>
+        <condition table="x_875435_refund_0_refund">state=3^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
@@ -29,14 +31,38 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>triggered</generation_type>
+        <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${opened_by.name},</p>
+        <message_html><![CDATA[<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.email-container { 	
+	max-width: 600px; 
+	margin: 0 auto; 
+	border: 1px solid #e1e1e1;
+}
+
+.header { 
+	background-color: #f4f4f4; 
+    padding: 20px; 
+    text-align: center; 
+}
+.btn { 
+	background-color: #035dbd; 
+    color: #fff !important; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 3px; 
+}
+</style>
+<p>Dear ${opened_by.name},</p>
 <p>&nbsp;</p>
 <p>The refund process of your request number: <strong>${number}</strong> has been <strong>completed</strong>.</p>
 <p>A total of R$ ${refund_amount} has been issued to your original payment method. Please allow 3&ndash;10 business days for the funds to appear in your account, depending on your bank's processing time.</p>
@@ -44,7 +70,7 @@
 <p>We once again apologize for any inconvenience this may have caused and appreciate your patience.</p>
 <p>&nbsp;</p>
 <p>Best regards,</p>
-<p>${opened_by.manager.name}</p>
+<p>The ${refund_category.group} Team</p>
 <p>&nbsp;</p>
 <p>If you want to request another refund, please click <a href="/sp?id=sc_cat_item&amp;sys_id=d420094d93ac039039d0367efaba104b">here</a>.</p>]]></message_html>
         <message_list/>
@@ -68,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb21ed559360c39039d0367efaba107b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Refund Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
@@ -76,10 +102,21 @@
         <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
         <sys_update_name>sysevent_email_action_cb21ed559360c39039d0367efaba107b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 14:05:36</sys_updated_on>
+        <sys_updated_on>2026-04-30 20:21:52</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cb21ed559360c39039d0367efaba107b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 18:43:02</sys_created_on>
+        <sys_id>c7f47cca93280b9039d0367efaba10c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 18:43:02</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

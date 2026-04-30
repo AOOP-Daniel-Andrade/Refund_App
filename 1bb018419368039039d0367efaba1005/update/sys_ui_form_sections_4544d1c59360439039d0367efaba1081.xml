@@ -20,27 +20,13 @@
             <sys_created_on>2026-04-27 18:25:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8144d1c59360439039d0367efaba1089</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_875435_refund_0_refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">4544d1c59360439039d0367efaba1081</sys_ui_form>
-            <sys_ui_section caption="Receipt" display_value="Receipt" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">c944d1c59360439039d0367efaba107c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-27 18:25:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>0544d1c59360439039d0367efaba1090</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_875435_refund_0_refund" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">4544d1c59360439039d0367efaba1081</sys_ui_form>
             <sys_ui_section caption="Integration" display_value="Integration" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">0144d1c59360439039d0367efaba1080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-28 18:00:57</sys_updated_on>
+            <sys_updated_on>2026-04-30 13:52:22</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_875435_refund_0_refund</name>

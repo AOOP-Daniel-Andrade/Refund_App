@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Receipt" section_id="c944d1c59360439039d0367efaba107c" sys_domain="global" table="x_875435_refund_0_refund" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receipt</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-27 18:25:46</sys_created_on>
+            <sys_id>c944d1c59360439039d0367efaba10b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipt" display_value="Receipt" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">c944d1c59360439039d0367efaba107c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-27 18:25:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Receipt</caption>
+            <header>false</header>
+            <name>x_875435_refund_0_refund</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-27 18:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c944d1c59360439039d0367efaba107c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_875435_refund_0_refund</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
+            <sys_update_name>sys_ui_section_c944d1c59360439039d0367efaba107c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-27 18:25:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund App">1bb018419368039039d0367efaba1005</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_ui_section_c944d1c59360439039d0367efaba107c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Receipt" section_id="c944d1c59360439039d0367efaba107c" sys_domain="global" table="x_875435_refund_0_refund" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>receipt</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-27 18:25:46</sys_created_on><sys_id>c944d1c59360439039d0367efaba10b5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Receipt" display_value="Receipt" name="x_875435_refund_0_refund" sys_domain="global" view="Default view">c944d1c59360439039d0367efaba107c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-27 18:25:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Receipt</caption><header>false</header><name>x_875435_refund_0_refund</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-27 18:25:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c944d1c59360439039d0367efaba107c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_875435_refund_0_refund</sys_name><sys_overrides/><sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package><sys_policy/><sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope><sys_update_name>sys_ui_section_c944d1c59360439039d0367efaba107c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-27 18:25:46</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1851043858</payload_hash>
+        <record_name>Refund</record_name>
+        <reverted_from/>
+        <source>8e0610499368039039d0367efaba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 18:25:46</sys_created_on>
+        <sys_id>4544d1c59360439039d0367efaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd030b7250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 18:25:46</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4544d1c5c560439035910d4ee62e97b8</update_guid>
+        <update_guid_history>4544d1c5c560439035910d4ee62e97b8:1851043858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 19:14:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1c41e92c0d584e288cbd52ceecd52640</sys_id>
+        <sys_metadata>c944d1c59360439039d0367efaba107c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Receipt</sys_name>
+        <sys_package display_value="Refund App" source="x_875435_refund_0">1bb018419368039039d0367efaba1005</sys_package>
+        <sys_parent display_value="Refund">d5871c8d9368039039d0367efaba1045</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund App">1bb018419368039039d0367efaba1005</sys_scope>
+        <sys_scope_delete display_value="">0a0715aa53b14289826d79fd8c7ecaa1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c944d1c59360439039d0367efaba107c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c944d1c59360439039d0367efaba107c">4544d1c59360439039d0367efaba10b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:14:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

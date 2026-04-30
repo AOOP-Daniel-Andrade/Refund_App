@@ -13,6 +13,6 @@
         <sys_update_name>sys_security_acl_role_148b699993a0c39039d0367efaba1015</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-28 14:46:57</sys_updated_on>
-        <sys_user_role display_value="x_875435_refund_0.refund_solicitor" name="x_875435_refund_0.refund_solicitor">e3b018419368039039d0367efaba1071</sys_user_role>
+        <sys_user_role display_value="x_875435_refund_0.refund_requester" name="x_875435_refund_0.refund_requester">e3b018419368039039d0367efaba1071</sys_user_role>
     </sys_security_acl_role>
 </record_update>

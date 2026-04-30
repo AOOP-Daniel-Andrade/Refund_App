@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_875435_refund_0.refund_solicitor" name="x_875435_refund_0.refund_solicitor">e3b018419368039039d0367efaba1071</role>
+        <role display_value="x_875435_refund_0.refund_requester" name="x_875435_refund_0.refund_requester">e3b018419368039039d0367efaba1071</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-27 13:30:45</sys_created_on>

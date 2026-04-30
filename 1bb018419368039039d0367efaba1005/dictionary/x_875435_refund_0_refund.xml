@@ -5,7 +5,7 @@
         <element label="Purchase Date" max_length="40" name="refund_date" type="glide_date"/>
         <element label="Receipt" max_length="40" name="receipt" type="file_attachment"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
-        <element label="Refund Amount (in USD)" max_length="40" name="refund_amount_dollars" type="float"/>
+        <element label="Refund Amount (USD)" max_length="40" name="refund_amount_dollars" type="float"/>
         <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
@@ -15,6 +15,6 @@
                 <element inactive_on_update="false" label="Invalid" sequence="2" value="7"/>
             </choice>
         </element>
-        <element label="Refund Amount (in BRL)" max_length="40" name="refund_amount" type="float"/>
+        <element label="Refund Amount (BRL)" max_length="40" name="refund_amount" type="float"/>
     </element>
 </database>

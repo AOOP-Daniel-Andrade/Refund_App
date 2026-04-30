@@ -13,6 +13,6 @@
         <sys_update_name>sc_cat_item_user_criteria_mtom_d12645c993ec039039d0367efaba10bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-27 17:24:04</sys_updated_on>
-        <user_criteria display_value="Refund Solicitors">20e54d8993ec039039d0367efaba10ab</user_criteria>
+        <user_criteria display_value="Refund Requesters">20e54d8993ec039039d0367efaba10ab</user_criteria>
     </sc_cat_item_user_criteria_mtom>
 </record_update>
